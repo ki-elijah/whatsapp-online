@@ -10,7 +10,7 @@ NEW_CHAT_BTN = '/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/header[1]/di
 INPUT_TXT_BOX = '/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]/span[1]/div[1]/div[1]/div[1]/label[1]/div[1]/div[2]'
 ONLINE_STATUS_LABEL = '/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/header[1]/div[2]/div[2]/span[1]'
 
-TARGETS = {'"NICOLE FISHER"': '+1 (201) 995-3122', '"Lillian Faith"': '+256 759 302269'}
+TARGETS = {'"username 1"': 'user number 1', '"username 2"': 'user number 2'}
 browser = webdriver.Chrome(r'/usr/bin/chromedriver')
 browser.get("https://web.whatsapp.com/")
 wait = WebDriverWait(browser, 600)
